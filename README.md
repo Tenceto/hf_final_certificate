@@ -9,7 +9,7 @@ There is several room for improvement, since this is just a first version. I am 
 
 However, the current code already helped me pass the final exam, so feel free to try it out or use it as a baseline for your own implementation.
 
-## Getting Started
+## Getting started :chart_with_upwards_trend:
 
 First of all, the necessary environment variables must be set.
 Create a file `.env` inside the root directory following `.env.example`.
@@ -29,7 +29,7 @@ To install all Python dependencies, simply run:
 One last thing: since one of the tools for the LLM transcripts a voicenote into text, you need FFMPEG in your computer. In MacOS, you can install it by running:
 `brew install ffmpeg`
 
-### Running the script :books:
+## Running the script :runner:
 
 The main script automatically fetches all questions, downloads all required files, and submits the agent's answers.
 Before running it, remember to change the `config.yaml` accordingly.
