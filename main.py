@@ -48,14 +48,14 @@ async def answer_questions(agent, questions):
     return answers
 
 
-if __name__ == "__main__":
+async def main():
     questions = download_questions_and_files()
     with open("config.yaml", "r") as f:
         config = yaml.safe_load(f)
 
     agent = GAIAAgent(config)
 
-    answers = answer_questions(agent, questions)
+    answers = await answer_questions(agent, questions)
 
     status = submit_answers(
         username=config["username"],
@@ -64,3 +64,9 @@ if __name__ == "__main__":
     )
     print(status)
     print("Done!")
+
+
+if __name__ == "__main__":
+    import asyncio
+
+    asyncio.run(main())
