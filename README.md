@@ -1,0 +1,1 @@
+For audio transcription: `brew install ffmpeg`

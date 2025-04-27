@@ -1,0 +1,10 @@
+username: "Tenceto"
+agent_code: "https://huggingface.co/spaces/Tenceto/None/tree/main"
+
+# provider: "gemini"
+# model_name: "models/gemini-2.0-flash"
+# temperature: 0.2
+
+provider: "openai"
+model_name: "gpt-4.1"
+temperature: 0.2
