@@ -2,10 +2,7 @@
 
 Welcome to my resolution of the final project for the [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/unit4/hands-on)!
 
-There is much room for improvement, since this is just the first version. I am currently working on:
-
-- Adding additional tools for image and video processing
-- Adding unit tests
+There is much room for improvement, since this is just the first version. I am currently working on adding additional **tools for image and video processing**.
 
 However, the current code already helped me pass the final exam, so feel free to try it out or use it as a baseline for your implementation.
 
