@@ -1,7 +1,6 @@
 [project]
 name = "hf-course-final"
 version = "0.1.0"
-description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -22,4 +21,9 @@ dev = [
     "pytest>=8.3.5",
     "pytest-asyncio>=0.26.0",
     "tqdm>=4.67.1",
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:aifc was removed.*standard-aifc:DeprecationWarning:speech_recognition",
 ]
